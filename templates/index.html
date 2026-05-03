@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIRMA PRIME — Grow Beautifully</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body class="bg-sage font-sans antialiased">
+
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- ── NAVBAR ──────────────────────────────────────────────────── -->
+  <header class="navbar" id="navbar">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-full">
+      <a href="/" class="flex flex-col leading-none select-none">
+        <span class="font-display text-xl font-bold text-forest tracking-widest uppercase">Girma Prime</span>
+        <span class="font-sans text-xs text-moss tracking-[0.25em] uppercase">Grow Beautifully</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#shop" class="nav-link">Shop</a>
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button id="cartToggle" class="cart-btn" aria-label="Open cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span id="cartCount" class="cart-badge hidden">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── HERO ─────────────────────────────────────────────────────── -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-16 min-h-screen pt-28 pb-20">
+      <div class="flex-1">
+        <p class="font-sans text-xs tracking-[0.3em] uppercase text-moss mb-4 fade-up" style="animation-delay:.1s">New Collection — 2025</p>
+        <h1 class="font-display text-5xl md:text-7xl text-forest leading-[1.05] mb-6 fade-up" style="animation-delay:.2s">
+          Bring the<br /><em>forest</em><br />indoors.
+        </h1>
+        <p class="font-sans text-base md:text-lg text-moss max-w-md mb-10 leading-relaxed fade-up" style="animation-delay:.35s">
+          Curated botanical pieces for spaces that breathe. Handcrafted pots, preserved florals, and artisan accessories — delivered to your door.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 fade-up" style="animation-delay:.5s">
+          <a href="#shop" class="btn-primary">Shop the Collection</a>
+          <a href="#about" class="btn-ghost">Our Story →</a>
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center fade-up" style="animation-delay:.25s">
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=900&q=85" alt="Botanical arrangement" class="hero-img" />
+          <div class="hero-badge">
+            <span class="font-display italic text-sm text-forest">Handcrafted</span>
+            <span class="font-sans text-xs text-moss tracking-wider">with love</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 fade-up" style="animation-delay:.8s">
+      <span class="font-sans text-xs tracking-widest uppercase text-moss">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE ──────────────────────────────────────────────────── -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Flowers</span><span class="marquee-dot">✦</span>
+      <span>Pots</span><span class="marquee-dot">✦</span>
+      <span>Accessories</span><span class="marquee-dot">✦</span>
+      <span>Grow Beautifully</span><span class="marquee-dot">✦</span>
+      <span>Handcrafted</span><span class="marquee-dot">✦</span>
+      <span>Nigeria's Finest</span><span class="marquee-dot">✦</span>
+      <span>Flowers</span><span class="marquee-dot">✦</span>
+      <span>Pots</span><span class="marquee-dot">✦</span>
+      <span>Accessories</span><span class="marquee-dot">✦</span>
+      <span>Grow Beautifully</span><span class="marquee-dot">✦</span>
+      <span>Handcrafted</span><span class="marquee-dot">✦</span>
+      <span>Nigeria's Finest</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ── SHOP ─────────────────────────────────────────────────────── -->
+  <section class="py-24" id="shop">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <p class="font-sans text-xs tracking-[0.3em] uppercase text-moss mb-2">The Collection</p>
+          <h2 class="font-display text-4xl md:text-5xl text-forest">Shop All Products</h2>
+        </div>
+        <div class="flex flex-wrap gap-2" id="filterButtons" role="tablist">
+          <button class="filter-btn active" data-category="All" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-category="Flowers" role="tab" aria-selected="false">Flowers</button>
+          <button class="filter-btn" data-category="Pots" role="tab" aria-selected="false">Pots</button>
+          <button class="filter-btn" data-category="Accessories" role="tab" aria-selected="false">Accessories</button>
+        </div>
+      </div>
+      <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="skeleton rounded-2xl h-96"></div>
+        <div class="skeleton rounded-2xl h-96"></div>
+        <div class="skeleton rounded-2xl h-96"></div>
+      </div>
+      <div id="emptyState" class="hidden text-center py-20">
+        <p class="font-display text-2xl text-forest italic mb-2">Nothing here yet.</p>
+        <p class="font-sans text-sm text-moss">Try a different category or check back soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ────────────────────────────────────────────────────── -->
+  <section class="about-strip" id="about">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div>
+        <p class="font-sans text-xs tracking-[0.3em] uppercase text-white/50 mb-4">Our Story</p>
+        <h2 class="font-display text-4xl md:text-5xl text-white mb-6 leading-tight">Rooted in<br /><em>African craft.</em></h2>
+        <p class="font-sans text-base text-white/70 leading-relaxed mb-6">
+          Girma Prime was born from a simple belief: that the spaces we inhabit should feel alive. We source pots from local artisans, preserve flowers using traditional glycerine methods, and pack every order with the care of a neighbourhood florist.
+        </p>
+        <p class="font-sans text-base text-white/70 leading-relaxed">
+          Every name in our catalogue carries meaning — Hausa, Swahili, Yoruba — because we believe your plants should carry stories too.
+        </p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=85" alt="Artisan at work" class="rounded-2xl w-full h-80 object-cover opacity-90" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ───────────────────────────────────────────────────── -->
+  <footer class="site-footer" id="contact">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+      <div>
+        <span class="font-display text-2xl text-forest block mb-1">Girma Prime</span>
+        <span class="font-sans text-xs text-moss tracking-widest uppercase">Grow Beautifully</span>
+        <p class="font-sans text-sm text-moss mt-4 leading-relaxed">Delivering handcrafted botanical pieces across Nigeria.</p>
+      </div>
+      <div>
+        <h4 class="font-sans text-xs tracking-[0.2em] uppercase text-moss mb-4">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#shop" class="footer-link">Shop</a></li>
+          <li><a href="#about" class="footer-link">Our Story</a></li>
+          <li><a href="/login" class="footer-link">Admin</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-sans text-xs tracking-[0.2em] uppercase text-moss mb-4">Contact Us</h4>
+        <p class="font-sans text-sm text-moss leading-relaxed">
+          WhatsApp orders and enquiries:<br />
+          <a href="https://wa.me/2349000000000" class="text-forest font-medium hover:underline">+234 900 000 0000</a>
+        </p>
+        <p class="font-sans text-sm text-moss mt-3">Lagos & Abuja delivery available.</p>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-black/10 flex justify-between items-center">
+      <p class="font-sans text-xs text-moss">© 2025 Girma Prime. All rights reserved.</p>
+      <p class="font-sans text-xs text-moss italic">Made with intention.</p>
+    </div>
+  </footer>
+
+  <!-- ── CART SIDEBAR ─────────────────────────────────────────────── -->
+  <div id="cartOverlay" class="overlay hidden" aria-hidden="true"></div>
+  <aside id="cartSidebar" class="sidebar" role="dialog" aria-label="Shopping cart">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="font-display text-2xl text-forest">Your Cart</h2>
+      <button id="cartClose" class="icon-btn" aria-label="Close cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div id="cartItems" class="flex-1 overflow-y-auto space-y-4 mb-6">
+      <div id="cartEmpty" class="flex flex-col items-center justify-center h-48 text-center">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" class="text-moss mb-3 opacity-40">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <p class="font-display italic text-lg text-forest">Your cart is empty</p>
+        <p class="font-sans text-xs text-moss mt-1">Add something beautiful.</p>
+      </div>
+    </div>
+    <div id="cartFooter" class="hidden border-t border-black/10 pt-6">
+      <div class="flex justify-between items-center mb-6">
+        <span class="font-sans text-sm text-moss">Total</span>
+        <span id="cartTotal" class="font-display text-2xl text-forest">₦0</span>
+      </div>
+      <button id="checkoutBtn" class="btn-primary w-full text-center">Proceed to Checkout</button>
+    </div>
+  </aside>
+
+  <!-- ── CHECKOUT MODAL ───────────────────────────────────────────── -->
+  <div id="checkoutOverlay" class="overlay hidden" aria-hidden="true"></div>
+  <div id="checkoutModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+    <div class="modal-inner">
+      <div class="flex items-center justify-between mb-8">
+        <h2 id="checkoutTitle" class="font-display text-2xl text-forest">Complete Your Order</h2>
+        <button id="checkoutClose" class="icon-btn" aria-label="Close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Order summary injected by JS -->
+      <div class="order-summary mb-8" id="modalSummary"></div>
+
+      <!-- Form -->
+      <div id="checkoutFormWrap">
+        <div class="grid md:grid-cols-2 gap-5">
+          <div class="field-group">
+            <label for="customerName" class="field-label">Full Name</label>
+            <input type="text" id="customerName" class="field-input" placeholder="Amina Musa" autocomplete="name" />
+            <span class="field-error" id="err-customerName"></span>
+          </div>
+          <div class="field-group">
+            <label for="whatsappNumber" class="field-label">WhatsApp Number</label>
+            <input type="tel" id="whatsappNumber" class="field-input" placeholder="08012345678" autocomplete="tel" />
+            <span class="field-error" id="err-whatsappNumber"></span>
+          </div>
+          <div class="field-group md:col-span-2">
+            <label for="deliveryAddress" class="field-label">Delivery Address</label>
+            <textarea id="deliveryAddress" class="field-input field-textarea" placeholder="12 Aminu Kano Crescent, Wuse 2, Abuja" rows="2"></textarea>
+            <span class="field-error" id="err-deliveryAddress"></span>
+          </div>
+          <div class="field-group md:col-span-2">
+            <label for="deliveryDate" class="field-label">Preferred Delivery Date &amp; Time</label>
+            <input type="datetime-local" id="deliveryDate" class="field-input" />
+            <span class="field-error" id="err-deliveryDate"></span>
+          </div>
+        </div>
+        <p class="font-sans text-xs text-moss mt-4 mb-8 leading-relaxed">
+          Payment is collected on delivery. We'll confirm your order via WhatsApp within 2 hours.
+        </p>
+        <button id="placeOrderBtn" class="btn-primary w-full flex items-center justify-center gap-3">
+          <span id="placeOrderLabel">Place Order</span>
+          <span id="placeOrderSpinner" class="hidden spinner" aria-hidden="true"></span>
+        </button>
+        <div id="formError" class="hidden mt-4 p-4 rounded-xl bg-red-50 border border-red-200">
+          <p class="font-sans text-sm text-red-700" id="formErrorText"></p>
+        </div>
+      </div>
+
+      <!-- Success state -->
+      <div id="checkoutSuccess" class="hidden text-center py-8">
+        <div class="success-icon mx-auto mb-6">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </div>
+        <h3 class="font-display text-2xl text-forest mb-3">Order Received!</h3>
+        <p class="font-sans text-sm text-moss leading-relaxed" id="successMessage"></p>
+        <button id="successClose" class="btn-primary mt-8">Continue Shopping</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
