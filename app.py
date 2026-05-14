@@ -116,88 +116,301 @@ def init_db():
                 "30cm × 30cm lightweight concrete fibre decorative pot stand, "
                 "hand-finished with a matte stone texture. Built to bear weight "
                 "while staying effortlessly elegant in any space.",
-                "Elevating your decorative pots",
+                "Elevating your decorative posts",
                 50000.0,
                 "Pots",
-                "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80"
+                "/static/images/karfi stand.jpg"
             ),
             (
-                "The 'Zuwa' Terracotta Vessel",
-                "Handcrafted 20cm terracotta pot with a raw, earthy glaze finish. "
-                "Breathable walls promote healthy root systems. Drainage hole included.",
-                "Indoor statement planting — succulents, herbs, and trailing vines",
-                28000.0,
+                "The \"Wadata\" Stand- Hausa word for Affluence",
+                "24cm cylindrical Raffia basket on 40cm 1/2 metal pipe stand with a natural jute finish. The woven basket conceals plastic nursery planters, while the sturdy stand adds a touch of industrial chic.",
+                "Conceals plastic planters, adds natural earthy ambience to your space",
+                16000.0,
                 "Pots",
-                "https://images.unsplash.com/photo-1604762524889-3e2fcc145683?w=600&q=80"
+                "/static/images/watada stand.jpg"
             ),
             (
-                "The 'Raha' Glazed Cylinder",
-                "Swahili for 'peace'. A 25cm tall glazed ceramic cylinder in "
-                "muted sage — wheel-thrown, kiln-fired, and signed by the artisan.",
-                "A calm centrepiece for living rooms and entryways",
-                42000.0,
+                "The 'Lightweight'concrete Fibre pot",
+                "Large, minimalist cylindrical planter featuring a smooth matte finish. Designed with clean, seamless vertical lines to anchor modern contemporary interiors."
+                "Designed with clean, seamless vertical lines to anchor modern contemporary interiors.",
+                "Perfect for large indoor botanicals and statement corners",
+                20000.0,
                 "Pots",
-                "https://images.unsplash.com/photo-1612015498838-b5e2b0f12dc9?w=600&q=80"
+                "/static/images/light weight concrete Fibre pot.jpg"
             ),
 
             # ── Flowers ───────────────────────────────────────────────────────
-            (
-                "Preserved Ivory Rose Bouquet",
-                "Twelve long-stemmed ivory roses, ethically preserved via the "
-                "glycerine method. Maintains softness and colour for 1–3 years "
-                "with zero maintenance.",
-                "Permanent table arrangements, gifts, and memorials",
-                75000.0,
-                "Flowers",
-                "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&q=80"
-            ),
-            (
-                "Dried Pampas Grass Bundle",
-                "Sustainably harvested pampas grass, bleached to a warm cream. "
-                "Sold in bundles of five 80cm stems, ready for vase styling.",
-                "Boho and minimalist interior styling",
-                22000.0,
-                "Flowers",
-                "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600&q=80"
-            ),
-            (
-                "Tropical Bird of Paradise",
-                "Strelitzia reginae — a live, nursery-grown Bird of Paradise plant "
-                "in a 30cm grow pot. Ships with care card and first-feed fertiliser.",
-                "Dramatic indoor statement and bright outdoor patios",
-                65000.0,
-                "Flowers",
-                "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
-            ),
+           (
+            "Aglaonema (Chinese Evergreen)",
+            "Striking variegated leaves with a lush, bushy growth habit. Incredibly resilient and perfect for beginners.",
+            "Low-light indoor spaces",
+            12000.0,
+            "Flowers",
+            "/static/images/Aglaonema plant.jpg"
+        ),
+        (
+            "Alocasia Amazonica",
+            "Dramatic, dark green leaves with striking white veins and scalloped edges. A true tropical statement piece.",
+            "High-humidity statement decor",
+            18000.0,
+            "Flowers",
+            "/static/images/Alocasia amazonica.jpg"
+        ),
+        (
+            "Sweet Basil",
+            "Highly aromatic, vibrant green leaves. Essential for culinary gardens and providing a fresh, herbal home scent.",
+            "Culinary herb & natural fragrance",
+            3500.0,
+            "Flowers",
+            "/static/images/Basil.jpg"
+        ),
+        (
+            "Classic Jade Plant",
+            "A beautiful succulent with thick, woody stems and glossy green, fleshy leaves. Symbolizes growth and renewal.",
+            "Drought-tolerant desk decor",
+            8500.0,
+            "Flowers",
+            "/static/images/Big jade plant .jpg"
+        ),
+        (
+            "Potted Celery Plant",
+            "Lush, bright green foliage with a crisp, earthy fragrance. A beautiful and functional addition to a kitchen garden.",
+            "Edible foliage & kitchen decor",
+            4000.0,
+            "Flowers",
+            "/static/images/Celery plant.jpg"
+        ),
+        (
+            "Red Cordyline (Ti Plant)",
+            "Stunning architectural plant featuring sword-like leaves with vibrant streaks of pink, burgundy, and deep red.",
+            "Adding a pop of color to neutral spaces",
+            14000.0,
+            "Flowers",
+            "/static/images/Cordyline.jpg"
+        ),
+        (
+            "Dwarf Dieffenbachia",
+            "Compact, broad-leafed beauty displaying spectacular contrasting patterns of cream, yellow, and deep green.",
+            "Brightening shaded corners",
+            9000.0,
+            "Flowers",
+            "/static/images/Dwarf dieffenbachia.jpg"
+        ),
+        (
+            "Dwarf Sansevieria",
+            "A compact, bird's-nest variety of the classic Snake Plant. Virtually indestructible and an excellent air purifier.",
+            "Bedside tables and low-light areas",
+            6000.0,
+            "Flowers",
+            "/static/images/Dwarf sansevieria plant.jpg"
+        ),
+        (
+            "Echeveria Rosette",
+            "A mathematically perfect rosette of pastel-green, fleshy succulent leaves. Thrives on neglect and bright sun.",
+            "Windowsills and dry terrariums",
+            4500.0,
+            "Flowers",
+            "/static/images/Echeveria plant.jpg"
+        ),
+        (
+            "Fiddle Leaf Fig",
+            "The ultimate interior design staple. Features massive, violin-shaped leaves with heavy veining and an upright habit.",
+            "Living room statement piece",
+            25000.0,
+            "Flowers",
+            "/static/images/Fiddle leaf fig.jpg"
+        ),
+        (
+            "Fittonia (Nerve Plant)",
+            "Intricate, web-like venation across small, vibrant green leaves. Creates a beautiful, dense mat of foliage.",
+            "Terrariums and humid environments",
+            5500.0,
+            "Flowers",
+            "/static/images/Fittonia.jpg"
+        ),
+        (
+            "Foxtail Fern",
+            "Plumes of soft, needle-like leaves that resemble a fox's tail. Adds incredible texture and a vibrant, bright green hue.",
+            "Textural contrast in mixed displays",
+            11000.0,
+            "Flowers",
+            "/static/images/Foxtail fern.jpg"
+        ),
+        (
+            "Hoya (Wax Plant)",
+            "Thick, waxy trailing leaves that can produce stunning, star-shaped porcelain flowers under the right conditions.",
+            "Hanging baskets and high shelves",
+            13000.0,
+            "Flowers",
+            "/static/images/Hoya plant.jpg"
+        ),
+        (
+            "Fresh Mint",
+            "Vigorous, sprawling herb with deeply veined leaves and an unmistakable, refreshing aroma.",
+            "Culinary use and patio decor",
+            3500.0,
+            "Flowers",
+            "/static/images/Mint.jpg"
+        ),
+        (
+            "Mondo Grass",
+            "Sleek, dark green, grass-like foliage that grows in tight, neat clumps. Perfect for a minimalist, modern aesthetic.",
+            "Border planting and modern pots",
+            4000.0,
+            "Flowers",
+            "/static/images/Mondo grass.jpg"
+        ),
+        (
+            "Pachira (Money Tree)",
+            "Features a signature braided trunk topped with palmate, bright green leaves. Said to bring positive energy and fortune.",
+            "Home offices and entryways",
+            19000.0,
+            "Flowers",
+            "/static/images/Money tree.jpg"
+        ),
+        (
+            "Monstera Siltepecana",
+            "A rare, beautiful trailing aroid featuring silvery-green lance-shaped leaves with deep green veining.",
+            "Trailing off shelves or climbing moss poles",
+            22000.0,
+            "Flowers",
+            "/static/images/monstera siltepecana.jpg"
+        ),
+        (
+            "Cuban Oregano",
+            "Thick, fuzzy, succulent-like leaves with a potent, savory herbal scent. Extremely easy to care for.",
+            "Aromatic kitchen decor",
+            4500.0,
+            "Flowers",
+            "/static/images/oregano.jpg"
+        ),
+        (
+            "Parlor Palm",
+            "Elegant, arching fronds that bring a soft, tropical feel to any room. Highly adaptable to typical indoor conditions.",
+            "Softening harsh architectural lines",
+            15000.0,
+            "Flowers",
+            "/static/images/parlor palm.jpg"
+        ),
+        (
+            "Peace Lily",
+            "Deep green, glossy foliage producing elegant white spathe flowers. Renowned for its superior air-purifying qualities.",
+            "Low-light spaces and bedrooms",
+            12500.0,
+            "Flowers",
+            "/static/images/Peace lily.jpg"
+        ),
+        (
+            "Philodendron Erubescens",
+            "A robust climbing plant with large, arrow-shaped green leaves and striking red stems.",
+            "Vertical height in corners",
+            17000.0,
+            "Flowers",
+            "/static/images/Philodendron erubescens.jpg"
+        ),
+       # (
+           # "Philodendron Lemon Lime",
+            #"Vibrant, neon yellow-green trailing foliage that instantly brightens up any dark shelf or corner.",
+           # "Hanging planters and color contrast",
+           # 11000.0,
+           # "Flowers",
+            #"/static/images/Philodendron_lemon_lime.jpg"#
+        #),
+        (
+            "Purple Anthurium",
+            "A rare variant of the classic flamingo flower, featuring a stunning, deep violet-purple spathe.",
+            "Premium exotic gift or centerpiece",
+            24000.0,
+            "Flowers",
+            "/static/images/purple anthurium.jpg"
+        ),
+        (
+            "Red Anthurium",
+            "Features glossy, heart-shaped green leaves and brilliant, waxy red blooms that last for months.",
+            "High-contrast tropical decor",
+            16000.0,
+            "Flowers",
+            "/static/images/Red anthurium.jpg"
+        ),
+        (
+            "Potted Rosemary",
+            "Woody, evergreen herb with needle-like leaves and a powerful, piney fragrance. Needs bright, direct sunlight.",
+            "Sunny windowsills and culinary use",
+            5500.0,
+            "Flowers",
+            "/static/images/Rosemary.jpg"
+        ),
+        (
+            "Rubber Plant (Ficus Elastica)",
+            "Thick, glossy, oversized dark green leaves with striking red central veins. A bold architectural houseplant.",
+            "Modern minimalist interiors",
+            21000.0,
+            "Flowers",
+            "/static/images/Rubber plant(Green).jpg"
+        ),
+        (
+            "Sansevieria Cylindrica",
+            "Striking, smooth, tubular spikes that grow vertically. The ultimate modern, structural, low-maintenance plant.",
+            "Contemporary styling and tight spaces",
+            15500.0,
+            "Flowers",
+            "/static/images/Sanseveria cylindrica.jpg"
+        ),
+        (
+            "Silver Peperomia",
+            "Deeply corrugated, heart-shaped leaves with a stunning metallic silver sheen and dark green veins.",
+            "Desks and coffee table displays",
+            8500.0,
+            "Flowers",
+            "/static/images/Silver pepperonia.jpg"
+        ),
+        (
+            "Variegated Spider Plant",
+            "Classic, resilient houseplant with arching green and white striped leaves. Excellent for beginners.",
+            "Hanging baskets and air purification",
+            7000.0,
+            "Flowers",
+            "/static/images/Spider plant.jpg"
+        ),
+        (
+            "Fresh Thyme",
+            "Tiny, aromatic leaves on delicate woody stems. A beautiful, creeping herb perfect for sunny spots.",
+            "Culinary gardens and sunny patios",
+            3500.0,
+            "Flowers",
+            "/static/images/Thyme.jpg"
+        ),
+        (
+            "Zebra Calathea",
+            "Incredible, velvety light green leaves with dark green stripes resembling a zebra. Leaves fold up at night.",
+            "High-humidity indirect light spaces",
+            14000.0,
+            "Flowers",
+            "/static/images/zebra calethea.jpg"
+        ),
+        (
+            "ZZ Plant",
+            "Graceful, wand-like stems with fleshy, oval-shaped glossy leaves. Tolerates extreme neglect and low light.",
+            "Windowless offices and dark corners",
+            13500.0,
+            "Flowers",
+            "/static/images/ZZ plant.jpg"
+        ),
+    
+        
 
-            # ── Accessories ───────────────────────────────────────────────────
+
+
+
+            # ── Accessories ──────────────────────────────────────────────────
             (
-                "Premium Organic Potting Mix (5L)",
-                "A blend of coco coir, perlite, and slow-release nutrients. "
-                "pH balanced for tropical and subtropical houseplants. No synthetic "
-                "fertilisers. Compostable bag.",
-                "Repotting, propagation, and new plantings",
-                8500.0,
-                "Accessories",
-                "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
-            ),
-            (
-                "Brass Watering Can — 1.5L",
-                "Hand-hammered solid brass with a long-spout precision nozzle. "
-                "Develops a natural patina over time. Holds 1.5 litres.",
-                "Precision watering of indoor plants and seedlings",
-                38000.0,
-                "Accessories",
-                "https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?w=600&q=80"
-            ),
-            (
-                "Misting Bottle — Amber Glass",
-                "200ml amber borosilicate glass misting bottle with a fine-mist "
-                "brass pump head. Protects water from UV degradation. Dishwasher safe.",
-                "Humidity-loving plants: ferns, calathea, orchids",
-                12500.0,
-                "Accessories",
-                "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=600&q=80"
+            "The 'Tsayi' Cross-Base Stand",
+            "A sleek, mid-century modern black metal stand featuring a minimalist X-frame design. Built to elevate your favorite indoor planters. (Note: Stand only, pot and plant not included).",
+            "Elevating medium to large floor planters",
+            15000.0,
+            "Accessories",
+            "/static/images/Tall cross stand.jpg"
+        
             ),
         ]
 

@@ -1,0 +1,6 @@
+flask
+flask-login
+werkzeug
+gunicorn
+
+web: gunicorn app:app
