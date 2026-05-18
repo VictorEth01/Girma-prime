@@ -131,8 +131,7 @@ def init_db():
             ),
             (
                 "The 'Lightweight'concrete Fibre pot",
-                "Large, minimalist cylindrical planter featuring a smooth matte finish. Designed with clean, seamless vertical lines to anchor modern contemporary interiors."
-                "Designed with clean, seamless vertical lines to anchor modern contemporary interiors.",
+                "Large, minimalist cylindrical planter featuring a smooth matte finish. Designed with clean, seamless vertical lines to anchor modern contemporary interiors.",
                 "Perfect for large indoor botanicals and statement corners",
                 20000.0,
                 "Pots",
@@ -144,7 +143,7 @@ def init_db():
             "Aglaonema (Chinese Evergreen)",
             "Striking variegated leaves with a lush, bushy growth habit. Incredibly resilient and perfect for beginners.",
             "Low-light indoor spaces",
-            12000.0,
+            14000.0,
             "Flowers",
             "/static/images/Aglaonema plant.jpg"
         ),
@@ -160,7 +159,7 @@ def init_db():
             "Sweet Basil",
             "Highly aromatic, vibrant green leaves. Essential for culinary gardens and providing a fresh, herbal home scent.",
             "Culinary herb & natural fragrance",
-            3500.0,
+            5000.0,
             "Flowers",
             "/static/images/Basil.jpg"
         ),
@@ -168,7 +167,7 @@ def init_db():
             "Classic Jade Plant",
             "A beautiful succulent with thick, woody stems and glossy green, fleshy leaves. Symbolizes growth and renewal.",
             "Drought-tolerant desk decor",
-            8500.0,
+            25000.0,
             "Flowers",
             "/static/images/Big jade plant .jpg"
         ),
@@ -176,7 +175,7 @@ def init_db():
             "Potted Celery Plant",
             "Lush, bright green foliage with a crisp, earthy fragrance. A beautiful and functional addition to a kitchen garden.",
             "Edible foliage & kitchen decor",
-            4000.0,
+            5000.0,
             "Flowers",
             "/static/images/Celery plant.jpg"
         ),
@@ -184,7 +183,7 @@ def init_db():
             "Red Cordyline (Ti Plant)",
             "Stunning architectural plant featuring sword-like leaves with vibrant streaks of pink, burgundy, and deep red.",
             "Adding a pop of color to neutral spaces",
-            14000.0,
+            16000.0,
             "Flowers",
             "/static/images/Cordyline.jpg"
         ),
@@ -192,7 +191,7 @@ def init_db():
             "Dwarf Dieffenbachia",
             "Compact, broad-leafed beauty displaying spectacular contrasting patterns of cream, yellow, and deep green.",
             "Brightening shaded corners",
-            9000.0,
+            15000.0,
             "Flowers",
             "/static/images/Dwarf dieffenbachia.jpg"
         ),
@@ -200,7 +199,7 @@ def init_db():
             "Dwarf Sansevieria",
             "A compact, bird's-nest variety of the classic Snake Plant. Virtually indestructible and an excellent air purifier.",
             "Bedside tables and low-light areas",
-            6000.0,
+            10000.0,
             "Flowers",
             "/static/images/Dwarf sansevieria plant.jpg"
         ),
@@ -208,7 +207,7 @@ def init_db():
             "Echeveria Rosette",
             "A mathematically perfect rosette of pastel-green, fleshy succulent leaves. Thrives on neglect and bright sun.",
             "Windowsills and dry terrariums",
-            4500.0,
+            10000.0,
             "Flowers",
             "/static/images/Echeveria plant.jpg"
         ),
@@ -216,7 +215,7 @@ def init_db():
             "Fiddle Leaf Fig",
             "The ultimate interior design staple. Features massive, violin-shaped leaves with heavy veining and an upright habit.",
             "Living room statement piece",
-            25000.0,
+            30000.0,
             "Flowers",
             "/static/images/Fiddle leaf fig.jpg"
         ),
@@ -224,7 +223,7 @@ def init_db():
             "Fittonia (Nerve Plant)",
             "Intricate, web-like venation across small, vibrant green leaves. Creates a beautiful, dense mat of foliage.",
             "Terrariums and humid environments",
-            5500.0,
+            14000.0,
             "Flowers",
             "/static/images/Fittonia.jpg"
         ),
@@ -232,7 +231,7 @@ def init_db():
             "Foxtail Fern",
             "Plumes of soft, needle-like leaves that resemble a fox's tail. Adds incredible texture and a vibrant, bright green hue.",
             "Textural contrast in mixed displays",
-            11000.0,
+            35000.0,
             "Flowers",
             "/static/images/Foxtail fern.jpg"
         ),
@@ -240,7 +239,7 @@ def init_db():
             "Hoya (Wax Plant)",
             "Thick, waxy trailing leaves that can produce stunning, star-shaped porcelain flowers under the right conditions.",
             "Hanging baskets and high shelves",
-            13000.0,
+            14000.0,
             "Flowers",
             "/static/images/Hoya plant.jpg"
         ),
@@ -248,7 +247,7 @@ def init_db():
             "Fresh Mint",
             "Vigorous, sprawling herb with deeply veined leaves and an unmistakable, refreshing aroma.",
             "Culinary use and patio decor",
-            3500.0,
+            5000.0,
             "Flowers",
             "/static/images/Mint.jpg"
         ),
@@ -256,7 +255,7 @@ def init_db():
             "Mondo Grass",
             "Sleek, dark green, grass-like foliage that grows in tight, neat clumps. Perfect for a minimalist, modern aesthetic.",
             "Border planting and modern pots",
-            4000.0,
+            40000.0,
             "Flowers",
             "/static/images/Mondo grass.jpg"
         ),
@@ -264,7 +263,7 @@ def init_db():
             "Pachira (Money Tree)",
             "Features a signature braided trunk topped with palmate, bright green leaves. Said to bring positive energy and fortune.",
             "Home offices and entryways",
-            19000.0,
+            20000.0,
             "Flowers",
             "/static/images/Money tree.jpg"
         ),
@@ -272,7 +271,7 @@ def init_db():
             "Monstera Siltepecana",
             "A rare, beautiful trailing aroid featuring silvery-green lance-shaped leaves with deep green veining.",
             "Trailing off shelves or climbing moss poles",
-            22000.0,
+            14000.0,
             "Flowers",
             "/static/images/monstera siltepecana.jpg"
         ),
@@ -280,7 +279,7 @@ def init_db():
             "Cuban Oregano",
             "Thick, fuzzy, succulent-like leaves with a potent, savory herbal scent. Extremely easy to care for.",
             "Aromatic kitchen decor",
-            4500.0,
+            5000.0,
             "Flowers",
             "/static/images/oregano.jpg"
         ),
@@ -288,7 +287,7 @@ def init_db():
             "Parlor Palm",
             "Elegant, arching fronds that bring a soft, tropical feel to any room. Highly adaptable to typical indoor conditions.",
             "Softening harsh architectural lines",
-            15000.0,
+            40000.0,
             "Flowers",
             "/static/images/parlor palm.jpg"
         ),
@@ -296,7 +295,7 @@ def init_db():
             "Peace Lily",
             "Deep green, glossy foliage producing elegant white spathe flowers. Renowned for its superior air-purifying qualities.",
             "Low-light spaces and bedrooms",
-            12500.0,
+            15000.0,
             "Flowers",
             "/static/images/Peace lily.jpg"
         ),
@@ -304,23 +303,16 @@ def init_db():
             "Philodendron Erubescens",
             "A robust climbing plant with large, arrow-shaped green leaves and striking red stems.",
             "Vertical height in corners",
-            17000.0,
+            14000.0,
             "Flowers",
             "/static/images/Philodendron erubescens.jpg"
         ),
-       # (
-           # "Philodendron Lemon Lime",
-            #"Vibrant, neon yellow-green trailing foliage that instantly brightens up any dark shelf or corner.",
-           # "Hanging planters and color contrast",
-           # 11000.0,
-           # "Flowers",
-            #"/static/images/Philodendron_lemon_lime.jpg"#
-        #),
+       
         (
             "Purple Anthurium",
             "A rare variant of the classic flamingo flower, featuring a stunning, deep violet-purple spathe.",
             "Premium exotic gift or centerpiece",
-            24000.0,
+            28000.0,
             "Flowers",
             "/static/images/purple anthurium.jpg"
         ),
@@ -328,7 +320,7 @@ def init_db():
             "Red Anthurium",
             "Features glossy, heart-shaped green leaves and brilliant, waxy red blooms that last for months.",
             "High-contrast tropical decor",
-            16000.0,
+            35000.0,
             "Flowers",
             "/static/images/Red anthurium.jpg"
         ),
@@ -336,7 +328,7 @@ def init_db():
             "Potted Rosemary",
             "Woody, evergreen herb with needle-like leaves and a powerful, piney fragrance. Needs bright, direct sunlight.",
             "Sunny windowsills and culinary use",
-            5500.0,
+            5000.0,
             "Flowers",
             "/static/images/Rosemary.jpg"
         ),
@@ -344,7 +336,7 @@ def init_db():
             "Rubber Plant (Ficus Elastica)",
             "Thick, glossy, oversized dark green leaves with striking red central veins. A bold architectural houseplant.",
             "Modern minimalist interiors",
-            21000.0,
+            25000.0,
             "Flowers",
             "/static/images/Rubber plant(Green).jpg"
         ),
@@ -352,7 +344,7 @@ def init_db():
             "Sansevieria Cylindrica",
             "Striking, smooth, tubular spikes that grow vertically. The ultimate modern, structural, low-maintenance plant.",
             "Contemporary styling and tight spaces",
-            15500.0,
+            18000.0,
             "Flowers",
             "/static/images/Sanseveria cylindrica.jpg"
         ),
@@ -360,7 +352,7 @@ def init_db():
             "Silver Peperomia",
             "Deeply corrugated, heart-shaped leaves with a stunning metallic silver sheen and dark green veins.",
             "Desks and coffee table displays",
-            8500.0,
+            15000.0,
             "Flowers",
             "/static/images/Silver pepperonia.jpg"
         ),
@@ -368,7 +360,7 @@ def init_db():
             "Variegated Spider Plant",
             "Classic, resilient houseplant with arching green and white striped leaves. Excellent for beginners.",
             "Hanging baskets and air purification",
-            7000.0,
+            13000.0,
             "Flowers",
             "/static/images/Spider plant.jpg"
         ),
@@ -376,7 +368,7 @@ def init_db():
             "Fresh Thyme",
             "Tiny, aromatic leaves on delicate woody stems. A beautiful, creeping herb perfect for sunny spots.",
             "Culinary gardens and sunny patios",
-            3500.0,
+            5000.0,
             "Flowers",
             "/static/images/Thyme.jpg"
         ),
@@ -384,15 +376,15 @@ def init_db():
             "Zebra Calathea",
             "Incredible, velvety light green leaves with dark green stripes resembling a zebra. Leaves fold up at night.",
             "High-humidity indirect light spaces",
-            14000.0,
+            16000.0,
             "Flowers",
             "/static/images/zebra calethea.jpg"
         ),
         (
-            "ZZ Plant",
+            "Small ZZ Plant",
             "Graceful, wand-like stems with fleshy, oval-shaped glossy leaves. Tolerates extreme neglect and low light.",
             "Windowless offices and dark corners",
-            13500.0,
+            15000.0,
             "Flowers",
             "/static/images/ZZ plant.jpg"
         ),
