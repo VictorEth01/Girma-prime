@@ -153,7 +153,7 @@ def init_db():
             "High-humidity statement decor",
             18000.0,
             "Flowers",
-            "/static/images/Alocasia amazonica.jpg"
+            "/static/images/Alocasia Amazonica.jpg"
         ),
         (
             "Sweet Basil",
@@ -193,7 +193,7 @@ def init_db():
             "Brightening shaded corners",
             15000.0,
             "Flowers",
-            "/static/images/Dwarf dieffenbachia.jpg"
+            "/static/images/Dwarf Dieffenbachia.jpg"
         ),
         (
             "Dwarf Sansevieria",
@@ -217,7 +217,7 @@ def init_db():
             "Living room statement piece",
             30000.0,
             "Flowers",
-            "/static/images/Fiddle leaf fig.jpg"
+            "/static/images/Fiddle leaf Fig.jpg"
         ),
         (
             "Fittonia (Nerve Plant)",
@@ -297,7 +297,7 @@ def init_db():
             "Low-light spaces and bedrooms",
             15000.0,
             "Flowers",
-            "/static/images/Peace lily.jpg"
+            "/static/images/Peace Lily.jpg"
         ),
         (
             "Philodendron Erubescens",
@@ -305,7 +305,7 @@ def init_db():
             "Vertical height in corners",
             14000.0,
             "Flowers",
-            "/static/images/Philodendron erubescens.jpg"
+            "/static/images/Philodendron Erubescens.jpg"
         ),
        
         (
@@ -322,7 +322,7 @@ def init_db():
             "High-contrast tropical decor",
             35000.0,
             "Flowers",
-            "/static/images/Red anthurium.jpg"
+            "/static/images/Red Anthurium.jpg"
         ),
         (
             "Potted Rosemary",
